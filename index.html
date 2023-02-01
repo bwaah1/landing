@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer CV Website</title>
+    <link rel="shortcut icon" href="img/cv-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <div class="header__logo-link">
-            <h1>AW</h1>
-        </div>
+    <header class="header max-width-container">
+        <a class="header__logo-link" href="#">
+            <h1 class="header__logo">AW</h1>
+        </a>
         <nav class="header__menu menu">
             <a class="menu__item" href="#">About me</a>
             <a class="menu__item" href="#">Skills</a>
@@ -20,7 +22,7 @@
             <a class="menu__item" href="#">Experience</a>
             <a class="menu__item" href="#">Events</a>
         </nav>
-        <nav class="header__social-icons social-icons">
+        <div class="header__social-icons social-icons">
             <a class="social-icons__icon" href="https://facebook.com">
                 <img src="img/facebook-logo.svg" alt="Facebook Logo">
             </a>
@@ -30,11 +32,10 @@
             <a class="social-icons__icon" href="https://youtube.com">
                 <img src="img/youtube-logo.svg" alt="Youtube Logo">
             </a>
-        </nav>
+        </div>
     </header>
-
-    <body>
-        <section class="about-me">
+    <main class="main">
+        <section class="about-me max-width-container">
             <h2 class="about-me__title">Alex Williams</h2>
             <p class="about-me__text">I’m a full-stack developer with great experience and passion for coding and
                 building plain interfaces. I have a manic love for great high-loaded projects. Plus, I’m an easy-going
@@ -43,7 +44,10 @@
             <img class="about-me__image" src="img/face-image.png">
         </section>
         <section class="skills">
-            <h2 class="skills__title">Skills</h2>
+            <div class="skills__background-container">
+                <img class="skills__background" src="img/skills-background.png">
+                <h2 class="skills__title">Skills</h2>
+            </div>
             <div class="skills__back-end back-end">
                 <img class="back-end__pic" src="img/back-end-pic.svg">
                 <p class="back-end__title">Back-end Developer</p>
@@ -78,14 +82,211 @@
                 <a href="#">Here is my CV</a>
             </div>
         </section>
-        <section class="Projects">
-            
-
+        <section class="projects">
+            <h2 class="projects__title">Projects</h2>
+            <p class="projects__subtitle">
+                Have a look at some of the rolled-out projects I'm proud of:
+            </p>
+            <div class="projects__blocks blocks">
+                <div class="blocks__item">
+                    <img class="blocks__item-pic" src="img/wowtaxi-pic.png">
+                    <p class="blocks__item-title">WowTaxi</p>
+                    <p class="blocks__item-description">
+                        UX design of the WowTaxi company's website, iOS and Android apps 
+                        by creating easy-to-use and plain user experience for the customers.
+                    </p>
+                    <a class="blocks__item-link" href="#">View project</a>  
+                </div>
+            </div>
+            <div class="projects__blocks blocks">
+                <div class="blocks__item">
+                    <img class="blocks__item-pic" src="img/block-expert-pic.png">
+                    <p class="blocks__item-title">Block Expert</p>
+                    <p class="blocks__item-description">
+                        Server side authentication web application, primary double spend protecting (language: nodeJS, database: levelDB), 
+                        development of MVP with consensus and distributed ledger (via p2p).
+                    </p>
+                    <a class="blocks__item-link" href="#">View project</a>  
+                </div>
+            </div>
+            <div class="projects__blocks blocks">
+                <div class="blocks__item">
+                    <img class="blocks__item-pic" src="img/paybox-pic.png">
+                    <p class="blocks__item-title">PayBox</p>
+                    <p class="blocks__item-description">
+                        Built a scalable, fault-tolerant architecture solution for a 
+                        MESOS-based web server. Processing design, development and implementation.
+                    </p>
+                    <a class="blocks__item-link" href="#">View project</a>  
+                </div>
+            </div>
         </section>
-
-    </body>
-    <footer>
-
+        <section class="banner">
+            <h2 class="banner__title">Interested in working together?</h2>
+            <p class="banner__subtitle">
+                You can trust your project in my expert hands. I'm always eager to do something nice 
+                and complicated. Let's discuss all the features in a private conversation.
+            </p>
+            <a href = "#" class="banner__button">Contact me</a>
+        </section>
+        <section class="experience">
+            <h2 class="experience__title">Experience</h2>
+            <div class="experience__items"></div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2015</p>
+                    <p class="experience__item-title">MIT</p>
+                    <p class="experience__item-description">
+                        Undergraduate Project in Computer Science and Engineering, A+
+                    </p>
+                </div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2016</p>
+                    <p class="experience__item-title">DoeWeb</p>
+                    <p class="experience__item-description">
+                        Software Development Intern in a US IT company. Used AngularJS, PHP, and basic frameworks.
+                    </p>
+                </div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2015</p>
+                    <p class="experience__item-title">DiveNet</p>
+                    <p class="experience__item-description">
+                        Backend developer in a SF hardware startup creating smart equipment for divers. 
+                        Used Node JS and PostgreSQL, and worked in tight bundle with engineers and security specialists.
+                    </p>
+                </div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2015</p>
+                    <p class="experience__item-title">University of Boston</p>
+                    <p class="experience__item-description">
+                        Bachelor of Science in Computer Science. Courses in programming languages, 
+                        compiler design, data structures, algorithms, data structures, theory of computation. 
+                    </p>
+                </div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2017</p>
+                    <p class="experience__item-title">WebLook</p>
+                    <p class="experience__item-description">
+                        Full-Stack developer at WebLook web development agency in SF. 
+                        Created and maintained websites and mobile apps for clients ranging from small businesses to enterprise corporations.
+                </div>
+                <div class="experience__item">
+                    <p class="experience__item-year">2015</p>
+                    <p class="experience__item-title">Remote Freelancer</p>
+                    <p class="experience__item-description">
+                        Having gained a lot of experience in previous jobs, I decided to become a freelancer. Since 2018, 
+                        I have been collaborating with various companies around the world, working as a UI/UX designer and 
+                        full-stack developer growing the most complex projects from scratch.
+                </div>
+            </div>
+        </section>
+        <section class="achievements">
+            <h2 class="achievements__title">Achievements</h2>
+            <div class="achievements__items">
+                <div class="achievements__item achievement">
+                    <img class="achievement__pic" src="img/trophy-pic.svg">
+                    <p class="achievement__title">DoeWeb</p>
+                    <p class="achievement__description">
+                        <span class = "achievement__description-bold">Employee of the month.</span>
+                        Though I was only an intern, I was highly praised at work and given promotion.
+                    </p>
+                </div>
+                <div class="achievements__item achievement">
+                    <img class="achievement__pic" src="img/computer-pic.svg">
+                    <p class="achievement__title">Hackaton</p>
+                    <p class="achievement__description">
+                        <span class = "achievement__description-bold">DeveloperWeek NYC 2018 Hackathon.</span>
+                        This was an incredible experience creating the whole project in 24 hours.  
+                    </p>
+                </div>
+                <div class="achievements__item achievement">
+                    <img class="achievement__pic" src="img/award-pic.svg">
+                    <p class="achievement__title">Awwwards</p>
+                    <p class="achievement__description">
+                        <span class = "achievement__description-bold">Honorable mention.</span>
+                        Being noticed means much to me and my client for whom the site was developed. 
+                    </p>
+                </div>
+                <div class="achievements__item achievement">
+                    <img class="achievement__pic" src="img/gistogram-pic.svg">
+                    <p class="achievement__title">Web Summit</p>
+                    <p class="achievement__description">
+                        <span class = "achievement__description-bold">Speaker.</span>
+                        Speaking at Web Summit is stunning, encouraging and inspiring at the same time. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="events">
+            <h2 class="events__title">Events With Me</h2>
+            <p class="events__subtitle">
+                I regularly take part in talks, forums, conferences and panel discussions to share experience, 
+                communicate with colleagues and find new opportunities. So you can always say hi!
+            </p>
+            <div class="events__items">
+                <div class="events__item event">
+                    <p class="event__format">Confence</p>
+                    <p class="event__title">WebDev Conference</p>
+                    <p class="event__date">05 July Friday</p>
+                    <p class="event__place">Global Arena, San Francisco</p>
+                    <p class="event__time">09:00 - 18:00</p>
+                    <a class="event__button" href ="#">Attend Event</a>
+                </div>
+                <div class="events__item event">
+                    <p class="event__format">Panel Discussion</p>
+                    <p class="event__title">Backend Security Issues</p>
+                    <p class="event__date">20 July Saturday</p>
+                    <p class="event__place">Central Hyde Gallery, Brooklyn, NY</p>
+                    <p class="event__time">10:30 - 14:00</p>
+                    <a class="event__button" href ="#">Attend Event</a>
+                </div>
+                <div class="events__item event">
+                    <p class="event__format">Workshop</p>
+                    <p class="event__title">UX Workshop</p>
+                    <p class="event__date">14 August Wednesday</p>
+                    <p class="event__place">Fellows Riverside Garden, Columbus</p>
+                    <p class="event__time">19:00 - 21:30</p>
+                    <a class="event__button" href ="#">Attend Event</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__form form">
+            <div class="form__title-container">
+                <h2 class="form__title">Any Propositions?</h2>
+                <p class="form__subtitle">Complete the form below and let's have a talk on your project!</p>
+            </div>
+            <form class="form__inputs-container">
+                <input class="form__input" type="text" placeholder="Name" required>
+                <input class="form__input" type="phonenumber" pattern="[0-9]{7}" placeholder="Phone number" required>
+                <button class="form__submit" type="submit">Start Conversation</button>
+            </form>  
+        </div>
+        <div class="footer__nav">
+            <h2 class="footer__nav-title">Alex Williams</h2>
+            <nav class="footer__menu menu">
+                <a class="menu__item" href="#">About me</a>
+                <a class="menu__item" href="#">Skills</a>
+                <a class="menu__item" href="#">Projects</a>
+                <a class="menu__item" href="#">Experience</a>
+                <a class="menu__item" href="#">Events</a>
+            </nav>
+            <div class="footer__social-icons social-icons">
+                <a class="social-icons__icon" href="https://facebook.com">
+                    <img src="img/facebook-logo.svg" alt="Facebook Logo">
+                </a>
+                <a class="social-icons__icon" href="https://instagram.com">
+                    <img src="img/instagram-logo.svg" alt="Instagram Logo">
+                </a>
+                <a class="social-icons__icon" href="https://youtube.com">
+                    <img src="img/youtube-logo.svg" alt="Youtube Logo">
+                </a>
+            </div>
+        </div>
+        <div class="footer__text-container">
+            <p class="footer__text">©Created by</p>
+            <p class="footer__text">All rights Reserved</p>
+        </div>
     </footer>
 </body>
 

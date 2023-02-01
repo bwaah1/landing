@@ -1,0 +1,19 @@
+.skills__background-container {
+    position: relative;
+}
+.skills__title {
+    position: absolute;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--skills-title-color);
+    line-height: 63.96px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills__background {
+    margin: auto;
+    max-width: 2560px;
+}
