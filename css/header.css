@@ -70,7 +70,6 @@
     margin-top: 42px;
     width: 35px;
     height: 35px;
-    filter: invert(32%) sepia(58%) saturate(3844%) hue-rotate(223deg)
-      brightness(102%) contrast(103%);
+    filter: invert(32%) sepia(58%) saturate(3844%) hue-rotate(223deg) brightness(102%) contrast(103%);
   }
 }
