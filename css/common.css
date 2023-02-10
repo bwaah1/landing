@@ -1,31 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&family=Titillium+Web:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Titillium+Web:wght@600&display=swap");
 
 :root {
-    --header-logo-color: #3c65ff;
-    --header-menu-color: #4c556a;
-    --about-me-title-color: #282d38;
-    --about-me-text-color: #4c556a;
-    --skills-title-color: #ffffff;
-    --skills-title-shadow-color: #282d38;
-    --skills-description-color: #717d99;
-    --skills-accent-color: #741cff;
-    --skills-list-color: #717d99;
+  --header-logo-color: #3c65ff;
+  --header-menu-color: #4c556a;
+  --about-me-title-color: #282d38;
+  --about-me-text-color: #4c556a;
+  --skills-title-color: #ffffff;
+  --skills-title-shadow-color: #282d38;
+  --skills-description-color: #717d99;
+  --skills-accent-color: #741cff;
+  --skills-list-color: #717d99;
+  --skills-button-color: #741cff;
+  --skills-button-text-color: #ffffff;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
-    .max-width-container {
-        width: 1200px;
-        margin: auto;
-    }
+  .max-width-container {
+    width: 1200px;
+    margin: auto;
+  }
 }

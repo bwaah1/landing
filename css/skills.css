@@ -1,169 +1,179 @@
+.skills {
+  padding-bottom: 75px;
+}
 .skills__background-container {
-    position: relative;
+  position: relative;
 }
 
 .skills__title {
-    position: absolute;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--skills-title-color);
-    line-height: 63.96px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--skills-title-color);
+  line-height: 63.96px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .skills__background {
-    height: 100px;
-    margin: auto;
-    max-width: 2560px;
+  height: 100px;
+  margin: auto;
+  max-width: 2560px;
 }
 
 .skills__list {
-    margin-top: 52px;
-    max-width: 434px;
-    box-sizing: border-box;
-    padding: 32px 28px 31px 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid rgba(221, 221, 223, .5);
-    box-shadow: 5.4px 4.5px 20px 0 rgb(0 0 0 / 5%);
-    border-radius: 8px;
+  margin-top: 52px;
+  box-sizing: border-box;
+  padding: 32px 28px 31px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(221, 221, 223, 0.5);
+  box-shadow: 5.4px 4.5px 20px 0 rgb(0 0 0 / 5%);
+  border-radius: 8px;
+  height: 595px;
 }
 
 .skills__list-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill__pic {
-    width: 50px;
-    filter: invert(57%) sepia(87%) saturate(6120%) hue-rotate(219deg) brightness(100%) contrast(103%);
+  width: 50px;
+  filter: invert(57%) sepia(87%) saturate(6120%) hue-rotate(219deg)
+    brightness(100%) contrast(103%);
 }
 
 .skill__title {
-    margin-top: 21px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 30.8px;
-    text-align: center;
-    color: var(--skills-title-shadow-color)
+  margin-top: 21px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: center;
+  color: var(--skills-title-shadow-color);
 }
 
 .skill__description {
-    margin-top: 23px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.2px;
-    text-align: center;
-    color: var(--skills-description-color);
+  margin-top: 23px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: center;
+  color: var(--skills-description-color);
 }
 
 .skill__tools {
-    margin-top: 19px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-    color: var(--skills-accent-color);
+  margin-top: 19px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: var(--skills-accent-color);
 }
 
 .skill__tools-list {
-    display: flex;
-    flex-direction: column;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: center;
-    color: var(--skills-list-color);
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: var(--skills-list-color);
+  margin-top: 20px;
 }
 
 .skill__tools-list-item {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .skills__list-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.skills__button {
+  text-align: center;
+  margin-top: 73px;
 }
 
 .cv-link {
-    padding: 16px 35px 16px 35px;
-    margin: 15px;
-    width: auto;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 15px;
-    text-align: center;
-    text-transform: none;
+  padding: 16px 35px 16px 35px;
+  margin: 10px;
+  color: var(--banner-text-color);
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: var(--skills-button-text-color);
+  background-color: var(--skills-button-color);
+  border-radius: 5px;
 }
 
 @media (min-width: 768px) {
-    .skills__list {
-        height: 775px;
-        margin-left: 32px;
-        margin-right: 32px;
-        margin-top: 45px;
-        padding: 41px 38px 55px 38px;
-    }
+  .skills__list {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 45px;
+    min-height: 775px;
+  }
 
-    .skills__list-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 24px;
-        margin-right: 24px;
-        height: 775px;
-    }
+  .skills__list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 51px;
+  }
 
-    .skill__pic { 
-        width: 70px;
-    }
+  .skill__pic {
+    width: 70px;
+  }
 
-    .skill__title {
-        margin-top: 22px;
-        font-size: 23px;
-    }
+  .skill__title {
+    margin-top: 22px;
+    font-size: 23px;
+  }
 
-    .skill__description {
-        margin-top: 18px;
-    }
+  .skill__description {
+    margin-top: 18px;
+  }
 
-    .skill__tools {
-        margin-top: 38px;
-    }
+  .skill__tools {
+    margin-top: 38px;
+  }
 
-    .skill__tools-list-item {
-        margin-bottom: 25px;
-    }
+  .skill__tools-list-item {
+    margin-bottom: 25px;
+  }
 }
 
 @media (min-width: 991px) {
-    .skills__title {
-        font-size: 24px;
-    }
-    .skills__list-container {
-        grid-template-columns: 1fr 1fr 1fr;
-        
-    }
+  .skills__title {
+    font-size: 24px;
+  }
+  .skills__list-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    .skills__list {
-        margin-left: 32px;
-        margin-right: 32px;
-        margin-top: 45px;
-        height: 775px;
-    }
-
+  .skills__list {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 45px;
+    max-width: 434px;
+    min-height: 775px;
+  }
 }
