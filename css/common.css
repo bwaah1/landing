@@ -12,6 +12,15 @@
   --skills-list-color: #717d99;
   --skills-button-color: #741cff;
   --skills-button-text-color: #ffffff;
+  --projects-title-color: #282d38;
+  --projects-subtitle-color: #4c556a;
+  --projects-text-color: #717d99;
+  --projects-link-color: #4759c2;
+  --projects-background-color: #ffffff;
+  --projects-border-color: #dddddf;
+  --projects-wowtaxi-color: #ffc322e6;
+  --projects-block-expert-color: #5853ff;
+  --projects-paybox-color: #ff4d66;
 }
 
 * {

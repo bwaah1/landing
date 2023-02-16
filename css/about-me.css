@@ -35,10 +35,18 @@
   object-fit: contain;
   margin-top: 45px;
   max-height: 279px;
-  min-height: 32px;
-  width: auto;
+  padding-left: 123px;
+  padding-right: 123px;
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .about-me__title {
+    font-size: 53px;
+  }
+}
 
-@media (min-width: 991px) {}
+@media (min-width: 991px) {
+  .about-me__title {
+    font-size: 58px;
+  }
+}

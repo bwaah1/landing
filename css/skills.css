@@ -8,7 +8,7 @@
 .skills__title {
   position: absolute;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 22px;
+  font-size: 38px;
   font-weight: 600;
   color: var(--skills-title-color);
   line-height: 63.96px;
@@ -50,7 +50,7 @@
 }
 
 .skill__title {
-  margin-top: 21px;
+  margin-top: 22px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 22px;
   font-weight: 600;
@@ -139,6 +139,10 @@
     margin-bottom: 51px;
   }
 
+  .skills__title {
+    font-size: 45px;
+  }
+
   .skill__pic {
     width: 70px;
   }
@@ -162,11 +166,15 @@
 }
 
 @media (min-width: 991px) {
-  .skills__title {
+  .skill__title {
     font-size: 24px;
   }
   .skills__list-container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .skills__title {
+    font-size: 52px;
   }
 
   .skills__list {
