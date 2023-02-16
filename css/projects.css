@@ -1,6 +1,11 @@
 .projects {
     padding: 74px 25px 76px 25px;
 }
+
+.projects img {
+    max-height: 400px;
+    object-fit: contain;
+}
 .projects__title {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
