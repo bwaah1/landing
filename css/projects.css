@@ -1,0 +1,165 @@
+.projects {
+    padding: 74px 25px 76px 25px;
+}
+.projects__title {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--projects-title-color);
+}
+
+.projects__subtitle {
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--projects-subtitle-color);
+}
+
+.blocks__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.blocks__container {
+    background-color: var(--projects-background-color);
+    text-align: center;
+    padding: 60px 47px 60px 47px;
+    margin-top: 52px;
+    border: 1px solid var(--projects-border-color);
+    border-bottom-width: 2.5px;
+    border-radius: 8px;
+}
+
+.blocks__item-description {
+    margin-top: 25px;
+    margin-bottom: 37px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--projects-text-color);
+}
+
+.blocks__item-link {
+    text-decoration: none;
+    color: var(--projects-link-color);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wowtaxi__item-pic {
+    background-color: var(--projects-wowtaxi-color);
+    border-radius: 8px;
+}
+
+.wowtaxi__item-title {
+    color: var(--projects-wowtaxi-color);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.block-expert__item-pic {
+    background-color: var(--projects-block-expert-color);
+    border-radius: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.block-expert__item-title {
+    color: var(--projects-block-expert-color);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.paybox__item-pic {
+    background-color: var(--projects-paybox-color);
+    border-radius: 8px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.paybox__item-title {
+    color: var(--projects-paybox-color);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+@media (min-width: 768px) {
+    .blocks__item {
+        flex-direction: row;
+    }
+
+    .blocks__container {
+        margin-top: 0px;
+        display: flex;
+        flex-basis: 32%;
+        max-width: 50%;
+        flex-direction: column;
+    }
+
+    .wowtaxi__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+    }
+
+    .block-expert__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+        max-height: 383px;
+        padding-left: 94px;
+        padding-right: 94px
+    }
+
+    .paybox__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+        max-height: 358px;
+    }
+}
+
+@media (min-width: 1160px) {
+    .wowtaxi__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+    }
+
+    .block-expert__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+        max-height: 383px;
+        padding-left: 94px;
+        padding-right: 94px
+    }
+
+    .paybox__item-pic {
+        display: flex;
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 32px;
+        max-height: 358px;
+        padding-left: 184px;
+        padding-right: 184px;
+    }
+}
