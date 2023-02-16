@@ -21,6 +21,11 @@
   --projects-wowtaxi-color: #ffc322e6;
   --projects-block-expert-color: #5853ff;
   --projects-paybox-color: #ff4d66;
+  --banner-background-color: #4555ff;
+  --banner-title-color: #ffffff;
+  --banner-subtitle-color: #ffffff;
+  --banner-button-color: #ffffff;
+  --banner-button-text-color: #2364b5;
 }
 
 * {
