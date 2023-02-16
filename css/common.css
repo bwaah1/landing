@@ -26,6 +26,11 @@
   --banner-subtitle-color: #ffffff;
   --banner-button-color: #ffffff;
   --banner-button-text-color: #2364b5;
+  --experience-title-color: #282d38;
+  --experience-item-year-color: #4c556a;
+  --experience-item-year-background-color: #fafafa;
+  --experience-item-title-color: #741cff;
+  --experience-item-description-color: #717d99;
 }
 
 * {

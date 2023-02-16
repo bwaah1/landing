@@ -3,7 +3,7 @@
 }
 
 .projects img {
-    max-height: 400px;
+    max-height: 361px;
     object-fit: contain;
 }
 .projects__title {
@@ -123,7 +123,6 @@
         flex-basis: 50%;
         max-width: 50%;
         margin-right: 32px;
-        max-height: 383px;
     }
 
     .paybox__item-pic {
@@ -131,7 +130,6 @@
         flex-basis: 50%;
         max-width: 50%;
         margin-right: 32px;
-        max-height: 358px;
         padding-left: 100px;
         padding-right: 100px;
     }
