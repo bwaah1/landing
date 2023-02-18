@@ -3,6 +3,7 @@
 :root {
     --header-logo-color: #3c65ff;
     --header-menu-color: #4c556a;
+    --header-menu-hover-color: #4759c2;
     --about-me-title-color: #282d38;
     --about-me-text-color: #4c556a;
     --skills-title-color: #ffffff;
@@ -11,6 +12,7 @@
     --skills-accent-color: #741cff;
     --skills-list-color: #717d99;
     --skills-button-color: #741cff;
+    --skills-button-hover-color: #3c65ff;
     --skills-button-text-color: #ffffff;
     --projects-title-color: #282d38;
     --projects-subtitle-color: #4c556a;
@@ -25,6 +27,7 @@
     --banner-title-color: #ffffff;
     --banner-subtitle-color: #ffffff;
     --banner-button-color: #ffffff;
+    --banner-button-hover-color: #f1f1fa;
     --banner-button-text-color: #2364b5;
     --experience-title-color: #282d38;
     --experience-item-year-color: #4c556a;

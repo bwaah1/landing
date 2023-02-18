@@ -102,6 +102,9 @@
     background-color: var(--event-button-color);
 }
 
+.event__button-link:hover {
+    background-color: var(--event-button-hover-color);
+}
 @media (min-width: 768px) {
     .events__items {
         display: grid;

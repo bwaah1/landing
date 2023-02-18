@@ -58,6 +58,10 @@
         text-decoration: none;
     }
 
+    .menu__item:hover {
+        color: #4759c2;
+    }
+
     .header__social-icons {
         display: flex;
         flex-direction: row;
@@ -72,4 +76,5 @@
         height: 35px;
         filter: invert(32%) sepia(58%) saturate(3844%) hue-rotate(223deg) brightness(102%) contrast(103%);
     }
+
 }
