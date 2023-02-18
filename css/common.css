@@ -31,6 +31,9 @@
   --experience-item-year-background-color: #fafafa;
   --experience-item-title-color: #741cff;
   --experience-item-description-color: #717d99;
+  --achievements-title-color: #ffffff;
+  --achievements-title-shadow-color: rgb(40, 45, 56);
+  --achievements-description-color: rgb(113, 125, 153);
 }
 
 * {

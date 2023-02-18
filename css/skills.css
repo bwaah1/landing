@@ -132,7 +132,7 @@
 
   .skills__list-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 51px;
@@ -169,7 +169,7 @@
     font-size: 24px;
   }
   .skills__list-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .skills__title {
