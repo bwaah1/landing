@@ -37,7 +37,7 @@
         </div>
     </header>
     <main class="main">
-        <section class="about-me max-width-container">
+        <section class="about-me ">
             <h2 class="about-me__title">Alex Williams</h2>
             <p class="about-me__text">I’m a full-stack developer with great experience and passion for coding and
                 building plain interfaces. I have a manic love for great high-loaded projects. Plus, I’m an easy-going
@@ -237,7 +237,8 @@
         </section>
         <section class="achievements max-width-container">
             <div class="achievements__background-container">
-                <img class="achievements__background" src="img/achievements-background.png" alt="Achievements Background">
+                <img class="achievements__background" src="img/achievements-background.png"
+                    alt="Achievements Background">
                 <h2 class="achievements__title">Achievements</h2>
             </div>
             <div class="achievements__items">
@@ -277,18 +278,20 @@
         </section>
         <section class="events">
             <h2 class="events__title">Events With Me</h2>
-            <p class="events__subtitle">
+            <p class="events__subtitle max-width-container">
                 I regularly take part in talks, forums, conferences and panel discussions to share experience,
                 communicate with colleagues and find new opportunities. So you can always say hi!
             </p>
-            <div class="events__items">
+            <div class="events__items max-width-container">
                 <div class="events__item event">
                     <p class="event__format">Confence</p>
                     <p class="event__title">WebDev Conference</p>
                     <p class="event__date">05 July Friday</p>
                     <p class="event__place">Global Arena, San Francisco</p>
                     <p class="event__time">09:00 - 18:00</p>
-                    <a class="event__button" href="#">Attend Event</a>
+                    <div class="event__button">
+                        <a class="event__button-link" href="#">Attend Event</a>
+                    </div>
                 </div>
                 <div class="events__item event">
                     <p class="event__format">Panel Discussion</p>
@@ -296,7 +299,9 @@
                     <p class="event__date">20 July Saturday</p>
                     <p class="event__place">Central Hyde Gallery, Brooklyn, NY</p>
                     <p class="event__time">10:30 - 14:00</p>
-                    <a class="event__button" href="#">Attend Event</a>
+                    <div class="event__button">
+                        <a class="event__button-link" href="#">Attend Event</a>
+                    </div>
                 </div>
                 <div class="events__item event">
                     <p class="event__format">Workshop</p>
@@ -304,9 +309,11 @@
                     <p class="event__date">14 August Wednesday</p>
                     <p class="event__place">Fellows Riverside Garden, Columbus</p>
                     <p class="event__time">19:00 - 21:30</p>
-                    <a class="event__button" href="#">Attend Event</a>
+                    <div class="event__button">
+                        <a class="event__button-link" href="#">Attend Event</a>
+                    </div>
+
                 </div>
-            </div>
         </section>
     </main>
     <footer class="footer">

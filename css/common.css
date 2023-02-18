@@ -1,55 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Titillium+Web:wght@600&display=swap");
 
 :root {
-  --header-logo-color: #3c65ff;
-  --header-menu-color: #4c556a;
-  --about-me-title-color: #282d38;
-  --about-me-text-color: #4c556a;
-  --skills-title-color: #ffffff;
-  --skills-title-shadow-color: #282d38;
-  --skills-description-color: #717d99;
-  --skills-accent-color: #741cff;
-  --skills-list-color: #717d99;
-  --skills-button-color: #741cff;
-  --skills-button-text-color: #ffffff;
-  --projects-title-color: #282d38;
-  --projects-subtitle-color: #4c556a;
-  --projects-text-color: #717d99;
-  --projects-link-color: #4759c2;
-  --projects-background-color: #ffffff;
-  --projects-border-color: #dddddf;
-  --projects-wowtaxi-color: #ffc322e6;
-  --projects-block-expert-color: #5853ff;
-  --projects-paybox-color: #ff4d66;
-  --banner-background-color: #4555ff;
-  --banner-title-color: #ffffff;
-  --banner-subtitle-color: #ffffff;
-  --banner-button-color: #ffffff;
-  --banner-button-text-color: #2364b5;
-  --experience-title-color: #282d38;
-  --experience-item-year-color: #4c556a;
-  --experience-item-year-background-color: #fafafa;
-  --experience-item-title-color: #741cff;
-  --experience-item-description-color: #717d99;
-  --achievements-title-color: #ffffff;
-  --achievements-title-shadow-color: rgb(40, 45, 56);
-  --achievements-description-color: rgb(113, 125, 153);
+    --header-logo-color: #3c65ff;
+    --header-menu-color: #4c556a;
+    --about-me-title-color: #282d38;
+    --about-me-text-color: #4c556a;
+    --skills-title-color: #ffffff;
+    --skills-title-shadow-color: #282d38;
+    --skills-description-color: #717d99;
+    --skills-accent-color: #741cff;
+    --skills-list-color: #717d99;
+    --skills-button-color: #741cff;
+    --skills-button-text-color: #ffffff;
+    --projects-title-color: #282d38;
+    --projects-subtitle-color: #4c556a;
+    --projects-text-color: #717d99;
+    --projects-link-color: #4759c2;
+    --projects-background-color: #ffffff;
+    --projects-border-color: #dddddf;
+    --projects-wowtaxi-color: #ffc322e6;
+    --projects-block-expert-color: #5853ff;
+    --projects-paybox-color: #ff4d66;
+    --banner-background-color: #4555ff;
+    --banner-title-color: #ffffff;
+    --banner-subtitle-color: #ffffff;
+    --banner-button-color: #ffffff;
+    --banner-button-text-color: #2364b5;
+    --experience-title-color: #282d38;
+    --experience-item-year-color: #4c556a;
+    --experience-item-year-background-color: #fafafa;
+    --experience-item-title-color: #741cff;
+    --experience-item-description-color: #717d99;
+    --achievements-title-color: #ffffff;
+    --achievements-title-shadow-color: #282d38;
+    --achievements-description-color: #717d99;
+    --events-title-color: #282d38;
+    --events-subtitle-color: #4c556a;
+    --event-background-color: #ffffff;
+    --event-format-color: #717d99;
+    --event-title-color: #282d38;
+    --event-date-color: #741cff;
+    --event-place-color: #717d99;
+    --event-time-color: #717d99;
+    --event-button-color: #3b63fc;
+    --event-button-text-color: #ffffff;
+    --event-button-hover-color: #741cff;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 @media (min-width: 1200px) {
-  .max-width-container {
-    width: 1200px;
-    margin: auto;
-  }
+    .max-width-container {
+        width: 1200px;
+        margin: auto;
+    }
 }

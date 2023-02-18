@@ -51,6 +51,7 @@
         font-size: 45px;
     }
 }
+
 @media (min-width: 992px) {
     .banner__title {
         font-size: 52px;
