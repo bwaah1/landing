@@ -51,6 +51,9 @@
     --event-button-text-color: #ffffff;
     --event-button-hover-color: #741cff;
     --event-button-active-color: #3b63fc;
+    --form-background-color: #ffffff;
+    --form-title-color: #282d38;
+    --form-subtitle-color: #4c556a;
 }
 
 * {
