@@ -13,6 +13,7 @@
     --skills-list-color: #717d99;
     --skills-button-color: #741cff;
     --skills-button-hover-color: #3c65ff;
+    --skills-button-active-color: #741cff;
     --skills-button-text-color: #ffffff;
     --projects-title-color: #282d38;
     --projects-subtitle-color: #4c556a;
@@ -28,6 +29,7 @@
     --banner-subtitle-color: #ffffff;
     --banner-button-color: #ffffff;
     --banner-button-hover-color: #f1f1fa;
+    --banner-button-active-color: #ffffff;
     --banner-button-text-color: #2364b5;
     --experience-title-color: #282d38;
     --experience-item-year-color: #4c556a;
@@ -48,6 +50,7 @@
     --event-button-color: #3b63fc;
     --event-button-text-color: #ffffff;
     --event-button-hover-color: #741cff;
+    --event-button-active-color: #3b63fc;
 }
 
 * {

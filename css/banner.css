@@ -45,6 +45,10 @@
     background-color: var(--banner-button-hover-color)
 }
 
+.banner__button:active {
+    background-color: var(--banner-button-active-color)
+}
+
 @media (min-width: 768px) {
     .banner {
         padding-top: 69px;

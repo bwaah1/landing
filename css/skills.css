@@ -126,6 +126,10 @@
     background-color: var(--skills-button-hover-color);
 }
 
+.cv-link:active {
+    background-color: var(--skills-button-active-color);
+}
+
 @media (min-width: 768px) {
     .skills__list {
         margin-left: 32px;

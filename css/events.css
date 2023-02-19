@@ -105,6 +105,11 @@
 .event__button-link:hover {
     background-color: var(--event-button-hover-color);
 }
+
+.event__button-link:active {
+    background-color: var(--event-button-active-color);
+}
+
 @media (min-width: 768px) {
     .events__items {
         display: grid;
