@@ -331,10 +331,10 @@
                     <h2 class="form__title">Any Propositions?</h2>
                     <p class="form__subtitle">Complete the form below and let's have a talk on your project!</p>
                 </div>
-                <form class="form__inputs-container">
-                    <input class="form__input" type="text" placeholder="Name" required>
-                    <input class="form__input" type="tel" pattern="[0-9]{7}" placeholder="Phone number" required>
-                    <button class="form__submit" type="submit">Start Conversation</button>
+                <form class="form__inputs-container" action="https://formspree.io/f/meqwgkkv" method="post">
+                    <input class="form__input" name="fullname" type="text" placeholder="Name" required>
+                    <input class="form__input" name="number"type="tel" pattern="+[0-9]{10}" placeholder="Phone number" required>
+                    <input class="form__submit" type="submit" value="Start Conversation">
                 </form>
             </div>
             <div class="footer__nav">
