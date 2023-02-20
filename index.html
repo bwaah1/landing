@@ -16,14 +16,14 @@
             <h1 class="header__logo">AW</h1>
         </a>
         <div class="header__menu-container">
-            <nav class="header__menu menu">
+            <nav class="header__menu menu" id="menu">
                 <a class="menu__item" href="#">About me</a>
                 <a class="menu__item" href="#">Skills</a>
                 <a class="menu__item" href="#">Projects</a>
                 <a class="menu__item" href="#">Experience</a>
                 <a class="menu__item" href="#">Events</a>
             </nav>
-            <div class="header__social-icons social-icons">
+            <div class="header__social-icons social-icons" id="icons">
                 <a class="social-icons__icon" href="https://facebook.com">
                     <img src="img/facebook-logo.svg" alt="Facebook Logo">
                 </a>
@@ -34,7 +34,15 @@
                     <img src="img/youtube-logo.svg" alt="Youtube Logo">
                 </a>
             </div>
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                    <span class="bar"></span> 
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
         </div>
+        <div class="popup" id="popup"></div>
     </header>
     <main class="main">
         <section class="about-me ">
@@ -357,6 +365,7 @@
         </div>
 
     </footer>
+    <script src="js/hamburger-menu.js"></script>
 </body>
 
 </html>
