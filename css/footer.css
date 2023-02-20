@@ -120,7 +120,6 @@
 .footer__menu__item {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     color: var(--footer-menu-color);
     text-decoration: none;
@@ -134,7 +133,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .footer__social-icons__icon {
@@ -152,14 +151,15 @@
     flex-direction: column;
     align-items: center;
     margin-top: 27px;
+    padding-right: 15px;
 }
 
 .footer__text {
     margin: 5px 10px 23px 10px;
-    color: var(--footer-accent-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--footer-text-color);
 }
 
 
