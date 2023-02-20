@@ -106,6 +106,10 @@
     filter: invert(32%) sepia(58%) saturate(3844%) hue-rotate(223deg) brightness(102%) contrast(103%);
 }
 
+.popup .social-icons__icon:hover {
+    filter: invert(22%) sepia(93%) saturate(7173%) hue-rotate(264deg) brightness(101%) contrast(107%);
+}
+
 .hamb__field.active .bar:nth-child(2) {
     opacity: 0;
 }
@@ -172,5 +176,9 @@ body.noscroll {
         width: 35px;
         height: 35px;
         filter: invert(32%) sepia(58%) saturate(3844%) hue-rotate(223deg) brightness(102%) contrast(103%);
+    }
+
+    .social-icons__icon:hover {
+        filter: invert(22%) sepia(93%) saturate(7173%) hue-rotate(264deg) brightness(101%) contrast(107%);
     }
 }
