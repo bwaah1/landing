@@ -67,6 +67,10 @@
 }
 
 @media (min-width: 768px) {
+    .achievements__title {
+        font-size: 45px;
+    }
+
     .achievements__items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -90,6 +94,10 @@
 }
 
 @media (min-width: 992px) {
+    .achievements__title {
+        font-size: 52px;
+    }
+
     .achievements__items {
         grid-template-columns: repeat(4, 1fr);
     }

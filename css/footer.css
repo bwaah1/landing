@@ -173,6 +173,10 @@
         margin-right: 32px;
     }
 
+    .form__title {
+        font-size: 45px;
+    }
+
     .form__inputs-container {
         margin-top: 0;
     }
@@ -185,5 +189,11 @@
     .footer__text-container {
         flex-direction: row;
         justify-content: center;
+    }
+}
+
+@media (min-width: 991px) {
+    .form__title {
+        font-size: 52px;
     }
 }
