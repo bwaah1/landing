@@ -1,5 +1,9 @@
 .banner {
-    background: linear-gradient(110deg, rgb(127, 47, 255) 0%, rgb(53, 95, 255) 100%),
+    background: linear-gradient(
+            110deg,
+            rgb(127, 47, 255) 0%,
+            rgb(53, 95, 255) 100%
+        ),
         url(../images/banner.jpg);
     padding: 119px 28px 85px 28px;
     display: flex;
@@ -42,11 +46,11 @@
 }
 
 .banner__button:hover {
-    background-color: var(--banner-button-hover-color)
+    background-color: var(--banner-button-hover-color);
 }
 
 .banner__button:active {
-    background-color: var(--banner-button-active-color)
+    background-color: var(--banner-button-active-color);
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,6 @@
 .events {
-    background: url(../img/events-background.png) center center / 1306px repeat fixed, #ffffff;
+    background: url(../img/events-background.png) center center / 1306px repeat fixed,
+        #ffffff;
     padding-top: 65px;
     padding-bottom: 75px;
 }

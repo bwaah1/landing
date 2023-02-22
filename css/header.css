@@ -43,13 +43,13 @@
 
 .bar {
     display: block;
-    width: 30px;    
+    width: 30px;
     height: 3px;
     margin: 5px auto;
     background-color: var(--header-hamb-color);
 }
 
-.popup {    
+.popup {
     position: fixed;
     top: 75px;
     left: -100%;
@@ -65,7 +65,8 @@
     left: 0;
 }
 
-.popup #menu, .popup #icons {
+.popup #menu,
+.popup #icons {
     width: 100%;
     display: flex;
     align-items: center;
@@ -142,7 +143,7 @@ body.noscroll {
         align-items: center;
         margin-right: 15px;
     }
-    
+
     .header__menu {
         display: flex;
         flex-direction: row;
@@ -150,7 +151,7 @@ body.noscroll {
         gap: 15px;
         margin-right: 17px;
     }
-    
+
     .menu__item {
         font-family: "Source Sans Pro", sans-serif;
         font-size: 18px;
@@ -159,16 +160,16 @@ body.noscroll {
         color: var(--header-menu-color);
         text-decoration: none;
     }
-    
+
     .menu__item:hover {
         color: #4759c2;
     }
-    
+
     .header__social-icons {
         display: flex;
         flex-direction: row;
     }
-    
+
     .social-icons__icon {
         margin-left: 2.5px;
         margin-right: 2.5px;
