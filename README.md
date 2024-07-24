@@ -9,11 +9,13 @@ This is a personal website project showcasing the CV of Alex Williams, a full-st
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
 - [License](#license)
 
 ## Demo
 
-You can visit the live demo of this project at [Developer CV](https://your-deployment-link.com).
+You can visit the live demo of this project at [Developer CV](https://bwaah1.github.io/landing/).
 
 ## Features
 
@@ -41,17 +43,25 @@ To run this project locally, follow these steps:
    ```sh
    git clone https://github.com/your-username/developer-cv.git
 
-2. Navigate to the project directory:
-  ```sh
-  cd developer-cv
-3. Run live-server and serve the project
+2. **Navigate to the project directory:**
+   ```sh
+   cd developer-cv
 
-## Contributing
+3. **Run live-server and serve the project:**
+   ```sh
+   npx http-server .
 
-Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
 
-## Contact
+### Usage
+   **To start the project, use the following command:**
+      ```sh
+      npm start
 
-Chyk Ivan - chykivan@gmail.com
 
-Project Link: https://github.com/bwaah1/restaurant-service
+### Contributing
+   Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
+
+
+### Contact
+   Chyk Ivan - chykivan@gmail.com
+   Project Link: [GitHub](https://github.com/bwaah1/landing)
