@@ -2,16 +2,6 @@
 
 This is a personal website project showcasing the CV of Alex Williams, a full-stack developer. The site highlights various sections including About Me, Skills, Projects, Experience, and Events.
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
 
 ## Demo
 
